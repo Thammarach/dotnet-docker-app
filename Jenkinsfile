@@ -57,11 +57,11 @@ pipeline {
 
         // กำหนดค่าสำหรับจำลอง DEV environment บน Local
         DEV_APP_NAME              = "dotnet-app-dev"
-        DEV_HOST_PORT             = "6001"
+        DEV_HOST_PORT             = "6002"
 
         // กำหนดค่าสำหรับจำลอง PROD environment บน Local
         PROD_APP_NAME             = "dotnet-app-prod"
-        PROD_HOST_PORT            = "6000"
+        PROD_HOST_PORT            = "6001"
     }
 
     // กำหนด input parameters สำหรับเลือก Action (Build & Deploy หรือ Rollback)
